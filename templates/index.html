@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="zxx">
+{% load static %}
+<head>
+  <meta charset="utf-8">
+  <title>Kross | Portfolio Template</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="{% static 'plugins/bootstrap/bootstrap.min.css' %}">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="{% static 'plugins/slick/slick.css' %}">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static 'plugins/themify-icons/themify-icons.css' %}">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+  <!-- Main Stylesheet -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+  
+
+<header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand font-tertiary h3" href="index.html"><img src="{% static 'images/png.png' %}" width='150' height="150" alt="Myself"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#parallax">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutus">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Our Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#team">Our Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonials">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- hero area -->
+<section class="hero-area bg-primary" id="parallax">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-11 mx-auto">
+        <h1 class="text-white font-tertiary">Welcome To, Graphicstaan</h1>
+      </div>
+    </div>
+  </div>
+  <div class="layer-bg w-100">
+    <img class="img-fluid w-100" src="{% static 'images/illustrations/leaf-bg.png'%}" alt="bg-shape">
+  </div>
+  <div class="layer" id="l2">
+    <img src="{% static 'images/illustrations/dots-cyan.png'%}" alt="bg-shape">
+  </div>
+  <div class="layer" id="l3">
+    <img src="{% static 'images/illustrations/leaf-orange.png' %}" alt="bg-shape">
+  </div>
+  <div class="layer" id="l4">
+    <img src="{% static 'images/illustrations/dots-orange.png' %}" alt="bg-shape">
+  </div>
+  <div class="layer" id="l5">
+    <img src="{% static 'images/illustrations/leaf-yellow.png' %}" alt="bg-shape">
+  </div>
+  <div class="layer" id="l6">
+    <img src="{% static 'images/illustrations/leaf-cyan.png' %}" alt="bg-shape">
+  </div>
+  <div class="layer" id="l7">
+    <img src="{% static 'images/illustrations/dots-group-orange.png' %}" alt="bg-shape">
+  </div>
+  <div class="layer" id="l8">
+    <img src="{% static 'images/illustrations/leaf-pink-round.png' %}" alt="bg-shape">
+  </div>
+  <div class="layer" id="l9">
+    <img src="{% static 'images/illustrations/leaf-cyan-2.png' %}" alt="bg-shape">
+  </div>
+  <!-- social icon -->
+  <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
+    <li class="mb-3"><a class="text-white" href="#"><i class="ti-facebook"></i></a></li>
+    <li class="mb-3"><a class="text-white" href="#"><i class="ti-instagram"></i></a></li>
+    <li class="mb-3"><a class="text-white" href="#"><i class="ti-dribbble"></i></a></li>
+    <li class="mb-3"><a class="text-white" href="#"><i class="ti-twitter"></i></a></li>
+  </ul>
+  <!-- /social icon -->
+</section>
+<!-- /hero area -->
+
+<section class="section position-relative" id="aboutus">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">About Us!</h2>
+      </div>
+      <div class="col-lg-12 col-md-12 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+           <div class="position-relative rounded hover-wrapper">
+              <img src="{% static 'images/animesh/bg_1.jpg'%}" alt="portfolio-image" class="img-fluid rounded w-100">
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a class="btn btn-light btn-sm" href="">view More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='d-flex align-items-start mx-auto '>
+            
+            <h2 class="text-primary font-tertiary">Bring Your Shop Online</h2>
+        
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 col-md-12 mb-80">
+        <div class="d-flex ">
+          <div class='d-flex align-items-center mx-auto  '>
+            
+            <h3 class="text-primary font-tertiary">Connect with Potential Customers</h3>
+        
+          </div>
+          <div class="ml-lg-5 ml-3">
+           <div class="position-relative rounded hover-wrapper">
+              <img src="{% static 'images/animesh/bg_2.jpg'%}" alt="portfolio-image" class="img-fluid rounded w-100">
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a class="btn btn-light btn-sm" href="project-single.html">view more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-lg-12 col-md-12 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+           <div class="position-relative rounded hover-wrapper">
+              <img src="{% static 'images/animesh/bg_3.jpg'%}" alt="portfolio-image" class="img-fluid rounded w-100">
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a class="btn btn-light btn-sm" href="">view More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='d-flex align-items-start mx-auto '>
+            
+            <h2 class="text-primary font-tertiary">GET IN THE DIGITAL WORLD </h2>
+        
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!-- bg image -->
+  <img class="img-fluid edu-bg-image w-100" src="{% static 'images/backgrounds/education-bg.png'%}" alt="bg-image">
+</section>
+<hr>
+<section class="section" data-background="{% static 'images/backgrounds/bg-dots.png'%}" id="services">
+  <div class="container">
+    
+    <div class="row shuffle-wrapper">
+      
+      <div class="col-lg-4 col-sm-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="{% static 'images/animesh/gd.png' %}" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="">Graphics Designing</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="{% static 'images/animesh/dm.jpg' %}" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="">Digital Marketing</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="{% static 'images/animesh/ve_2.png' %}" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="">Video Editing</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row shuffle-wrapper d-flex justify-content-center align-items-center my-auto">
+      <h2 class="section-title">Our Services</h2>
+    </div>
+    <div class="row shuffle-wrapper">
+      <div class="col-lg-4 col-sm-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="{% static 'images/animesh/wd.png' %}" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+             <a class="btn btn-light btn-sm" href="">Web Development</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="{% static 'images/animesh/unity_1.png' %}" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="">3D Design</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="{% static 'images/animesh/ad.png' %}" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="">App Development</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section bg-cover" data-background="{% static 'images/backgrounds/team-bg.png'%}" id="team">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">My Team</h2>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+        <div class="card text-center">
+          <img src="{% static 'images/animesh/animesh.jpeg'%}" class="card-img-top">
+          <div class="card-body">
+            <h3 class="card-title">Animesh Gaur</h3>
+            <h5 class="text-primary font-secondary">Founder & CEO</h5>
+            <p class="text-primary font-dark">At Graphicstaan, we work hard so that you can meet your goals! We give platform to those who dare to make thier dreams to reality. #WeAimWow</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+        <div class="card text-center">
+          <img src="{% static 'images/animesh/simran.jpeg'%}" class="card-img-top">
+          <div class="card-body">
+            <h3 class="card-title">Simran Yadav</h3>
+            <h5 class="text-primary font-secondary">Digital Marketing</h5>
+            <p class="text-primary font-dark">"Content marketing is a commitment, not a campaign." We @ Graphicstaan believe in commitments not on trash talking!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+        <div class="card text-center">
+          <img src="{% static 'images/animesh/saurav.jpeg'%}" class="card-img-top">
+          <div class="card-body">
+            <h3 class="card-title">Saurav Changol</h3>
+            <h5 class="text-primary font-secondary">Co-founder</h5>
+            <p class="text-primary font-dark">#WeAimWow is not just another tag but a commitment to our clients. We deliver highest quality work with most affordable prices.</p>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials-->
+<section class="section bg-primary position-relative testimonial-bg-shapes" id='testimonials'>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title text-white mb-5">Testimonials</h2>
+      </div>
+      <div class="col-lg-10 mx-auto testimonial-slider">
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+          <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation
+              ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <img class="img-fluid rounded-circle mb-4 d-inline-block" src="{% static 'images/testimonial/client-1.png' %}"
+            alt="client-image">
+          <h4 class="text-white">Jesica Gomez</h4>
+          <h6 class="text-light mb-4">CEO, Funder</h6>
+        </div>
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+          <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation
+              ullamco
+              laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in
+            voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur.</p>
+          <img class="img-fluid rounded-circle mb-4 d-inline-block" src="{% static 'images/testimonial/client-1.png' %}"
+            alt="client-image">
+          <h4 class="text-white">Jesica Gomez</h4>
+          <h6 class="text-light mb-4">CEO, Funder</h6>
+        </div>
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+          <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation
+              ullamco
+              laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in
+            voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur.</p>
+          <img class="img-fluid rounded-circle mb-4 d-inline-block" src="{% static 'images/testimonial/client-1.png' %}"
+            alt="client-image">
+          <h4 class="text-white">Jesica Gomez</h4>
+          <h6 class="text-light mb-4">CEO, Funder</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- bg shapes -->
+  <img src="{% static 'images/backgrounds/map.png' %}" alt="map" class="img-fluid bg-map">
+  <img src="{% static 'images/illustrations/dots-group-v.png' %}" alt="bg-shape" class="img-fluid bg-shape-1">
+  <img src="{% static 'images/illustrations/leaf-orange.png' %}" alt="bg-shape" class="img-fluid bg-shape-2">
+  <img src="{% static 'images/illustrations/dots-group-sm.png' %}" alt="bg-shape" class="img-fluid bg-shape-3">
+  <img src="{% static 'images/illustrations/leaf-pink-round.png' %}" alt="bg-shape" class="img-fluid bg-shape-4">
+  <img src="{% static 'images/illustrations/leaf-cyan.png' %}" alt="bg-shape" class="img-fluid bg-shape-5">
+</section>
+
+<!--Contact us-->
+<section class="section section-on-footer" data-background="{% static 'images/backgrounds/bg-dots.png'%}" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Contact Info</h2>
+      </div>
+      <div class="col-lg-8 mx-auto">
+        <div class="bg-white rounded text-center p-5 shadow-down">
+          <h4 class="mb-80">Contact Form</h4>
+          <form action="#" class="row">
+            <div class="col-md-6">
+              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-md-6">
+              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-12">
+              <textarea name="message" id="message" class="form-control px-0 mb-4"
+                placeholder="Type Message Here"></textarea>
+            </div>
+            <div class="col-lg-6 col-10 mx-auto">
+              <button class="btn btn-primary w-100">send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer -->
+<footer class="bg-dark footer-section">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2  style='color:white; font-family: Montserrat, sans-serif; '>GRAPHIC<span style="color:#0FB0DD;">STAAN</span></h2>
+          
+         
+        </div>
+        <div class="col-md-4">
+          
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">About the company</h5>
+          <p class="text-white paragraph-lg font-secondary">Graphicstaan is a portal for all web designers, graphic designers, web developers to collaborate and provide service to our valuable customers.</p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="border-top text-center border-dark py-5">
+    
+      <div class='row mx-sm-5 mx-md-0 d-flex justify-content-center'>
+        <div class="btn-group btn-group-toggle justify-content-center d-flex" data-toggle="buttons">
+          <label class="btn btn-sm btn-primary ">
+            <input type="radio" name="shuffle-filter" value="all" checked="checked" /><i class="fab fa-facebook-square fa-2x"></i>
+          </label>
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter" value="design" /><i class="fab fa-twitter-square fa-2x"></i>
+          </label>
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter" value="branding" /><i class="fab fa-linkedin fa-2x"></i>
+          </label>
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter" value="illustration" /><i class="fab fa-instagram-square fa-2x"></i>
+          </label>
+        </div>
+      </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="{% static 'plugins/jQuery/jquery.min.js' %}"></script>
+<!-- Bootstrap JS -->
+<script src="{% static 'plugins/bootstrap/bootstrap.min.js' %}"></script>
+<!-- slick slider -->
+<script src="{% static 'plugins/slick/slick.min.js' %}"></script>
+<!-- filter -->
+<script src="{% static 'plugins/shuffle/shuffle.min.js' %}"></script>
+
+<!-- Main Script -->
+<script src="{% static 'js/script.js' %}"></script>
+
+<!-- Smooth Scrolling -->
+{% include 'js/smooth.html' %}
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+</body>
+</html>
